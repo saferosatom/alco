@@ -10,6 +10,11 @@ class Alko:
         self.__start_time=start_time
         print(self.__start_time)
         pass
+    def hinm(self,h):
+        m=h*60
+        hr=m//60
+        ms=m%60
+        return f"за руль через {int(hr)}ч. {int(ms)}мин."
     def drink(self,volume):
         self.__volume+=volume
     def volume(self):
@@ -21,11 +26,10 @@ class Alko:
             else:
                 delta=self.__delta__
             
-            return (self.__volume+delta)*self.__ratio__/self.__weight
+            return self.hinm((self.__volume+delta)*self.__ratio__/self.__weight)
         else:
             return 0
 
-import datetime,configparser
 a=Alko
 
 me=Alko(115,datetime.datetime.now ())
