@@ -46,4 +46,4 @@ while True:
     else:
         break
 
-print("alco")
+print("game over...")
