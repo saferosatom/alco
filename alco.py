@@ -9,7 +9,7 @@ class Alco:
         self.__weight=weight
         self.__start_time=start_time
         print(self.__start_time)
-        pass
+#        pass
     def hinm(self,h):
         m=h*60
         hr=m//60
@@ -39,5 +39,6 @@ while True:
         print(me.duration())
     else:
         break
+f=f.f
 
 print("game over...")
