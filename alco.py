@@ -1,7 +1,7 @@
 __author__='andre'
-import string,datetime,configparser
+import string,datetime,configparser, f
 
-class Alko:
+class Alco:
     def __init__(self,weight,start_time):
         self.__delta__=50
         self.__ratio__=3.4
@@ -30,9 +30,7 @@ class Alko:
         else:
             return 0
 
-a=Alko
-
-me=Alko(115,datetime.datetime.now())
+me=Alco(115,datetime.datetime.now())
 
 while True:
     vt=input('давай ёбнем:')
