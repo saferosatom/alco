@@ -1,5 +1,5 @@
 __author__='andre'
-import string,datetime,configparser, f
+import string,datetime,configparser
 
 class Alco:
     def __init__(self,weight,start_time):
@@ -39,6 +39,5 @@ while True:
         print(me.duration())
     else:
         break
-f=f.f()
 
 print("game over...")
