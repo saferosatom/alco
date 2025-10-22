@@ -39,6 +39,6 @@ while True:
         print(me.duration())
     else:
         break
-f=f.f
+f=f.f()
 
 print("game over...")
