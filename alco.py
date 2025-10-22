@@ -1,6 +1,10 @@
 __author__='andre'
 import string,datetime,configparser
 
+class JsonCfg:
+    def __init__(self):
+        pass
+
 class Alko:
     def __init__(self,weight,start_time):
         self.__delta__=50
@@ -32,15 +36,14 @@ class Alko:
 
 a=Alko
 
-me=Alko(115,datetime.datetime.now ())
+me=Alko(115,datetime.datetime.now())
 
 while True:
     vt=input('давай ёбнем:')
     if vt.isnumeric() and int(vt)>0:
         me.drink(int(vt))
+        print(me.duration())
     else:
         break
 
-print(me.volume())
-print(me.duration())
 print("alco")
