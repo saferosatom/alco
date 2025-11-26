@@ -1,4 +1,5 @@
 comm=(date +%Y%m%d%H%M%S)
-$comm="\""+$comm+"\""
+#$comm="\""+$comm+"\"
+#echo {$comm}
 git add .
-git commit -m $comm
+git commit -m "{$comm}"
