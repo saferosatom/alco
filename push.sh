@@ -3,3 +3,4 @@ comm=(date +%Y%m%d%H%M%S)
 #echo {$comm}
 git add .
 git commit -m "{$comm}"
+git push -u origin main
