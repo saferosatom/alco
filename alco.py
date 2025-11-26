@@ -9,16 +9,21 @@ class Alco:
         self.__weight=weight
         self.__start_time=start_time
         print(self.__start_time)
+
 #        pass
     def hinm(self,h):
         m=h*60
         hr=m//60
         ms=m%60
         return f"за руль через {int(hr)}ч. {int(ms)}мин."
+
     def drink(self,volume):
         self.__volume+=volume
+
     def volume(self):
         return self.__volume
+
+#
     def duration(self):
         if self.__volume>0:
             if self.__volume<self.__delta__:
