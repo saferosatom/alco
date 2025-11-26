@@ -1,6 +1,6 @@
 __author__='andre'
 import string,datetime,configparser
-
+#test
 class Alco:
     def __init__(self,weight,start_time):
         self.__delta__=50
