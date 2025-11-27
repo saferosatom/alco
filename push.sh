@@ -1,4 +1,4 @@
-comm=$(date +%Y%m%d%H%M%S)
+comm="comment" #$(date +%Y%m%d%H%M%S)
 #$comm="\""+$comm+"\"
 #echo {$comm}
 git add .
